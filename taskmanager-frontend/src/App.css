@@ -1,0 +1,28 @@
+.collapse-description {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.6s ease, opacity 0.4s ease;
+  opacity: 0;
+}
+
+.collapse-description.show {
+  max-height: 1000px; /* big enough for any description */
+  opacity: 1;
+}
+
+
+/* Strike through & toogle tick for task completed*/
+
+/* Strike-through the title when completed */
+.task-title.completed {
+  text-decoration: line-through;
+  color: #6c757d; /* muted */
+}
+
+/* Optional: subtle hover highlight for each list item */
+.task-item {
+  transition: background-color .2s ease;
+}
+.task-item:hover {
+  background-color: #f8f9fa;
+}
