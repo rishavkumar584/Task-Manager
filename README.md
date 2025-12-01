@@ -1,37 +1,66 @@
-# Task-Manager
+# Task Manager – Full-Stack Web Application
 
-Full-stack Task Manager built with React.js, Spring Boot &amp; MySQL. Features include task creation, deletion, expandable descriptions, completion tracking, and persistent storage with real-time UI updates. Responsive design with Bootstrap and REST API integration.
+A simple end-to-end Task Manager web application built using **React.js**, **Node.js**, and **MySQL**.  
+This project demonstrates full-stack development involving frontend UI, backend API, and database integration.
 
 ---
 
-A **full-stack task management system** built as part of academic exploration and self-learning in  **Software Development** . This project demonstrates end-to-end application development using modern technologies and best practices.
+## 🔹 Tech Stack
 
-### 🔹 Tech Stack
+### **Frontend**
+- React.js  
+- CSS
 
-* **Frontend** : React.js, Bootstrap (UI styling), CSS
-* **Backend** : Spring Boot (Java), Spring Data JPA, Maven
-* **Database** : MySQL (task storage, persistence)
-* **API Communication** : REST APIs (JSON-based CRUD operations)
+### **Backend**
+- Node.js  
+- Express.js (REST API development)
 
-### 🔹 Features Implemented
+### **Database**
+- MySQL
 
-* **Add Tasks** → Users can create tasks with title, description, and time.
-* **Delete Tasks** → Tasks are removed from both database and UI instantly.
-* **Mark Complete / Incomplete** → Strike-through + checkbox toggle, persisted in MySQL.
-* **Expandable Descriptions** → Only first few words are shown; clicking expands smoothly to show full details.
-* **Modal-Based Task Creation** → Pop-up dialog box with inputs for task details and scrollable time wheels (hour, minute, AM/PM).
-* **Responsive UI** → Bootstrap-styled interface, mobile-friendly layout.
+### **Version Control**
+- Git & GitHub
 
-### 🔹 Enhancements in Progress
+---
 
-* Duplicate task prevention.
-* Task editing & updating.
-* Sorting & filtering (Pending, Completed, All).
-* Notifications & user authentication (future scope).
+## 🔹 Features Implemented
 
-### 🔹 Learning Outcomes
+- **User Authentication**
+  - Login and signup functionality integrated with backend and database.
 
-* Practical exposure to  **full-stack development** .
-* Hands-on experience integrating  **React frontend with Spring Boot REST APIs** .
-* Strong understanding of **CRUD operations, state management, and persistence** in MySQL.
-* Improved UI/UX with  **Bootstrap components and smooth animations** .
+- **CRUD Operations for Tasks**
+  - Create tasks  
+  - Fetch/display all tasks  
+  - Update task details or completion status  
+  - Delete tasks
+
+- **Task Management Workflow**
+  - Mark tasks as completed or pending  
+  - View updated task list dynamically
+
+- **Persistent Data Storage**
+  - All user and task data stored in MySQL and accessed through REST APIs.
+
+---
+
+## 🔹 Project Highlights
+
+- Built a complete **full-stack workflow**: React frontend → Node.js backend → MySQL database.
+- Implemented **secure REST API endpoints** for authentication and task operations.
+- Followed a **clean and modular structure** for both frontend components and backend routes.
+- Used **Git/GitHub** for version control and project management.
+
+---
+
+## 🔹 Learning Outcomes
+
+- Practical understanding of how full-stack systems work end-to-end.
+- Experience with:
+  - Creating and consuming REST APIs  
+  - Frontend state management in React  
+  - Backend routing and request handling in Node.js  
+  - SQL queries and database schema design  
+- Strengthened skills in collaboration and version control using Git/GitHub.
+
+---
+
